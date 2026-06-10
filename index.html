@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amal Arul | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<h2>Amal Arul</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div class="content">
+<h3>Hello, I'm</h3>
+<h1>Amal Arul</h1>
+<p class="typing">Industrial Engineering Student | CET Trivandrum</p>
+
+<div class="buttons">
+<a href="resume.pdf" download class="btn">Download Resume</a>
+<a href="https://www.linkedin.com/in/amal-arul-26550a389" target="_blank" class="btn btn2">LinkedIn</a>
+</div>
+</div>
+
+<div class="image">
+<img src="profile.jpg" alt="Profile">
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+Passionate first-year Industrial Engineering student at CET Trivandrum.
+Experienced in volunteering, event coordination, photography, videography and teamwork.
+Always eager to learn, build and contribute.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card">Teamwork</div>
+<div class="card">Communication</div>
+<div class="card">Problem Solving</div>
+<div class="card">Leadership</div>
+<div class="card">Photography</div>
+<div class="card">Videography</div>
+<div class="card">Video Editing</div>
+<div class="card">Adaptability</div>
+</div>
+</section>
+
+<section id="certificates">
+<h2>Certificates</h2>
+<div class="gallery">
+<img src="certificate1.jpg" onclick="openImg(this.src)">
+<img src="certificate2.jpg" onclick="openImg(this.src)">
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: amalarul200620@gmail.com</p>
+<p>Phone: 8943348340</p>
+</section>
+
+<div id="popup" class="popup" onclick="closeImg()">
+<img id="popupimg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
